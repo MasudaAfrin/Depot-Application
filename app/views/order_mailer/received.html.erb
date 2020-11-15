@@ -1,0 +1,8 @@
+<h3>Pragmatic Order Confirm</h3>
+<p>
+  Thank you for your order. Your orders are-
+</p>
+<table>
+  <tr><th colspan="2">Qty</th><th>Product</th></tr>
+  <%= render @order.line_items -%>
+</table>

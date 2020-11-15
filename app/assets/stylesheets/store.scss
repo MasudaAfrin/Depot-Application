@@ -1,0 +1,25 @@
+.store{
+    max-width: 80em;
+    h1{
+        padding-left: 2em;
+    }
+    ul.collections{
+        list-style: none;
+        li{
+            padding: 1.5em;
+            margin:0;
+            border-bottom: solid thin #ddd;
+            display: flex;
+
+            img{
+                padding: 1em;
+                margin-right: 1em;
+                margin-left: 1em;
+                box-shadow: 0.176em 0.176em 0.354em 0px rgba(0,0,0,0.75);
+            }
+            .price{
+                font-size:2em;
+            }
+        }
+    }
+}
